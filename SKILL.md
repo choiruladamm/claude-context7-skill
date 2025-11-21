@@ -1,8 +1,6 @@
 ---
-name: Context7 Documentation Fetcher
+name: context7-documentation-fetcher
 description: Automatically fetches up-to-date library documentation from Context7 when code generation, setup instructions, or API documentation is needed
-version: 1.0.0
-dependencies: python>=3.8, requests>=2.31.0
 ---
 
 # Context7 Documentation Fetcher
@@ -75,12 +73,12 @@ This skill can fetch documentation for any library available in Context7, includ
 ### API Integration
 The skill uses Context7's REST API:
 - **Search Endpoint**: `GET /api/v1/search?query={library_name}`
-- **Docs Endpoint**: `GET /api/v1/{library_id}?topic={topic}&tokens={limit}&type=json`
+- **Docs Endpoint**: `GET /api/v1/{library_id}?topic={topic}&tokens={limit}`
 
 ### Configuration
 - **API Key**: Pre-configured (secure)
 - **Default Token Limit**: 5000 tokens per request
-- **Response Format**: JSON for structured parsing
+- **Response Format**: Plain text suitable for direct display
 - **Rate Limits**: Follows Context7 free tier limits
 
 ### Error Handling
