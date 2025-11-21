@@ -182,7 +182,7 @@ Found a bug or want to improve this skill?
 
 ## 📝 Version History
 
-- **v1.0.0** (2024-11-21): Initial release
+- **v1.0.0** (2025-11-21): Initial release
   - Search library by name
   - Fetch documentation with topic filtering
   - Format docs for LLM consumption
