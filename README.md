@@ -1,4 +1,4 @@
-# Context7 Documentation Fetcher Skill
+# Context7 Fetcher Skill
 
 Custom skill for Claude.ai that automatically fetches up-to-date library documentation from Context7.
 
